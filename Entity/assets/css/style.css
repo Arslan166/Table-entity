@@ -1,0 +1,92 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	background: url(../images/entity.jpg);
+	width:100%;
+	background-repeat:no-repeat;
+	font-family:Arial;
+	display:grid;
+	height:100vh;
+	place-items:center;
+}
+.container table{
+	box-shadow: -1px 12px 12px -6px (0,0,0,0.5);
+}
+ .container table,th, td{
+	width:50%;
+	padding:10px;
+	border:1px solid black;
+	border-collapse:collapse;
+	cursor:pointer;
+}
+.container td{
+	font-size: 18px;
+	font-weight:200;
+}
+.container th{
+	background-color:#0861AE;
+	color:white;
+}
+.container tr:nth-child(odd){
+	background-color:#81F7F3;
+}
+.container tr:nth-child(odd):hover{
+	background-color:#0861AE;
+	transform:scale(1.5);
+	transition:transform 300ms ease-in;
+}
+.container tr:nth-child(even){
+	background-color:white;
+}
+.container tr:nth-child(even):hover{
+	background-color:#848484;
+	transform:scale(1.5);
+	transition:transform 300ms ease-in;
+}
+
+.enities{
+	width:500px;
+	border-radius:4px;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	border-left:2px dotted black;
+	border-right:2px dotted black;
+	padding:10px 10px 10px 10px;
+	color:white;
+	font-size:12px;	
+	margin-bottom:70px;
+}
+.enities p{
+	font-size:12px;
+	margin-bottom:30px;
+}
+.enities lable{
+	text-decoration:underline;
+}
+.showcurrency table{
+	box-shadow: -1px 12px 12px -6px (0,0,0,0.5);
+    
+}
+.showcurrency table, th, td{
+	padding:10px;
+	border:2px black white;
+	border-collapse:collapse;
+	cursor:pointer;
+}
+.showcurrency th{
+	
+	text-decoration:none;
+	text-align:center;
+}
+.showcurrency td{
+	font-size: 18px;
+	font-weight:200;	
+} 
+.showcurrency tr:hover {
+	background-color:#2E2E2E;
+	transform:scale(1.5);
+	transition:transform 300ms ease-in;
+}
